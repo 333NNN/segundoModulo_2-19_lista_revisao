@@ -18,13 +18,13 @@ public class LISTA_REVISAO_11_NATA {
         Random aleat = new Random();
 
         int n = 0, x;
-        int[] v = new int[n];
+        
         
         while (n <= 0 || n > 50) {
             System.out.print("Digite um número N (entre 0 e 50): ");
             n = read.nextInt();
         }
-
+        int[] v = new int[n];
         for (int i = 0; i < n; i++) {
             v[i] = aleat.nextInt(101); 
         }
