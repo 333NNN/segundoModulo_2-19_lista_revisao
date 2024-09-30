@@ -39,13 +39,13 @@ public class LISTA_REVISAO_08_NATA {
                     cont++;
                 } 
                 else {
-                    System.out.println("Valor fora do intervalo [" + min + ", " + max + "] ignorado na totalização.");
+                    System.out.println("Valor fora do intervalo " + min + ", " + max + " ignorado na totalização.");
                 }
             }
         } 
         while (x != 0);
 
-        System.out.println("Total de valores digitados no intervalo [" + min + ", " + max + "]: " + total);
+        System.out.println("Total de valores digitados no intervalo " + min + ", " + max + ": " + total);
         System.out.println("Quantidade de valores digitados no intervalo: " + cont);
     }
 }
