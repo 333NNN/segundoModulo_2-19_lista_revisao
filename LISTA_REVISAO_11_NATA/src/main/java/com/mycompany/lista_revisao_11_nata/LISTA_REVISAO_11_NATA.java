@@ -30,7 +30,7 @@ public class LISTA_REVISAO_11_NATA {
         }
 
         System.out.println("Vetor gerado:");
-        System.out.println("[ ");
+        System.out.print("[ ");
         for (int num : v) {
             System.out.print(num + " ");
         }
